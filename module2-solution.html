@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Menu</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			margin: 0px;
+		}
+		h1{
+			text-align: center;
+		}
+		div{
+			justify-content: center;
+			margin:auto;
+		}
+		h2{
+			float: right;
+			width: 50%;
+			text-align: center;
+			margin: 0px;
+		}
+
+		section{
+			width: 28%;
+			height: 20%;
+			float:left ;
+			border: 2px solid black;
+			margin: 2%;
+			padding: 0% 0% 1% 1%;
+			background-color: lightgray;
+		}
+		p{
+			clear: both;
+			padding: 3%;
+		}
+		#chicken{
+			background-color: pink;
+		}
+		#beef{
+			background-color: red;
+			color: white;
+		}
+		#sushi{
+			background-color: lightyellow;
+		}
+		@media(max-width:992px){
+			#sectionSushi{
+				width: 84%;
+				clear: left;
+			}
+			#SectionBeef{
+				width: 40%;
+			}
+			#sectionChicken{
+				width: 40%;
+			}
+		}
+		@media(min-width:768px) and (max-width:991px){
+			#sectionSushi{
+				width: 84%;
+				clear: left;
+			}
+			#SectionBeef{
+				width: 40%;
+			}
+			#sectionChicken{
+				width: 40%;
+			}
+		}
+		@media(max-width:767px){
+			#sectionSushi{
+				width: 90%;
+				clear: left;
+			}
+			#SectionBeef{
+				width: 90%;
+				clear: left;
+			}
+			#sectionChicken{
+				width: 90%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div>
+		<section id="sectionChicken">
+			<h2 id="chicken">Chicken</h2>
+			<p>Se llama carne de pollo (o simplemente pollo) a los tejidos musculares y órganos procedentes del pollo. Es muy frecuente encontrarla en muchos platos y preparaciones de la culinaria de todo el mundo. Su carne se considera un alimento básico y es por esta razón por la que se incluye en el índice de precios al consumidor.</p>
+		</section>
+		<section id="SectionBeef">
+			<h2 id="beef">Beef</h2>
+			<p>La carne es el tejido animal, principalmente muscular, que se consume como alimento. Se trata de una clasificación coloquial y comercial que solo se aplica a animales terrestres —normalmente vertebrados: mamíferos, aves y reptiles—, pues, a pesar de que podría aplicarse a los animales marinos.</p>
+		</section>
+		<section id="sectionSushi">
+			<h2 id="sushi">Sushi</h2>
+			<p>Sushi es un plato típico de origen japonés basado en arroz aderezado con vinagre de arroz, azúcar y sal y combinado con otros ingredientes como pescados crudos, mariscos, verduras, etc.2 Este plato es uno de los más reconocidos de la gastronomía japonesa y uno de los más populares internacionalmente</p>
+		</section>
+	</div>
+
+</body>
+</html>
